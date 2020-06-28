@@ -1,0 +1,50 @@
+<style>
+    /* Style the element with the id "myHeader" */
+    #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+    }
+
+    /* Style all elements with the class name "city" */
+    .city {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+    }
+</style>
+
+<!-- A unique element -->
+<h1 id="myHeader">My Cities</h1>
+
+<!-- Multiple similar elements -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+Marcadores con ID y enlaces
+Los marcadores HTML se utilizan para permitir a los lectores saltar a partes específicas de una página web.
+
+Los marcadores pueden ser útiles si su página web es muy larga.
+
+Para hacer un marcador, primero debe crear el marcador y luego agregarle un enlace.
+
+Cuando se hace clic en el enlace, la página se desplazará a la ubicación con el marcador.
+
+<h2 id="C4">Chapter 4</h2>
+<a href="#C4">Jump to Chapter 4</a>
+<br>
+<br>
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+<script>
+    function displayResult() {
+        document.getElementById("myHeader").innerHTML = "Have a nice day!";
+    }
+</script>
