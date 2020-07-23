@@ -1,0 +1,12 @@
+/*
+Selector general de hermanos
+El selector general de hermanos
+ selecciona todos los elementos que son hermanos de un elemento especificado.
+
+El siguiente ejemplo selecciona todos 
+los elementos <p> que son hermanos de elementos <div>: 
+*/
+
+div~p {
+    background-color: yellow;
+}

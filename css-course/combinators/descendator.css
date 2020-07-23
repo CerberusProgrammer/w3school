@@ -1,0 +1,9 @@
+/*
+Selector descendiente
+El selector descendiente coincide con todos los 
+elementos que son descendientes de un elemento especificado.
+*/
+
+div p {
+    background-color: yellow;
+}

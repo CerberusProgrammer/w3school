@@ -1,0 +1,16 @@
+/*
+Selector de hermanos adyacentes
+El selector de hermanos adyacentes
+ selecciona todos los elementos que son
+  hermanos adyacentes de un elemento especificado.
+
+Los elementos hermanos deben tener el mismo
+ elemento padre, y "adyacente" significa "inmediatamente siguiente".
+
+El siguiente ejemplo selecciona todos los
+ elementos <p> que se colocan inmediatamente después de los elementos <div>:
+*/
+
+div+p {
+    background-color: yellow;
+}
