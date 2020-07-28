@@ -1,17 +1,43 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+// Para importar archivo externo...
+import Dude from './App.js';
+
+const myFirstElement = <h1>Hello React!</h1>;
+const myElement = (
+  <table>
+    <tr>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>John</td>
+    </tr>
+  </table>
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const x = 10;
+const y = 10;
+const sum = (
+  <h1>
+    {" "}
+    {x} + {y} = {x + y}
+  </h1>
+);
+
+class Person extends React.Component {
+  constructor() {
+    super();
+    this.state = { color: "red" };
+  }
+
+  render() {
+    return <h1> Hi, I'm a {this.state.color} Car n.n</h1>;
+  }
+}
+
+function Car() {
+  return <h2>Hi, tambien soy un carro</h2>;
+}
+
+ReactDOM.render(<Dude></Dude>, document.getElementById("root"));

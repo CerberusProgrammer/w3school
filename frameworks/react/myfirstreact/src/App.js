@@ -1,11 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import ReactDOM from "react-dom";
 
-function App() {
-  return (
-    
-  );
+class Dude extends React.Component {
+  render() {
+    return <h2>Hi, Im a Dude!</h2>;
+  }
 }
 
-export default App;
+export default Dude;
