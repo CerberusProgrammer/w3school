@@ -1,0 +1,52 @@
+/*
+Diferentes imágenes para diferentes dispositivos
+Una imagen grande puede ser perfecta en una pantalla 
+de computadora grande, pero inútil en un dispositivo pequeño. 
+¿Por qué cargar una imagen grande cuando tiene que reducirla de 
+todos modos? Para reducir la carga, o por cualquier otro motivo, 
+puede usar consultas de medios para mostrar diferentes imágenes 
+en diferentes dispositivos.
+
+Aquí hay una imagen grande y una imagen más pequeña que se 
+mostrará en diferentes dispositivos:
+*/
+
+
+/* For width smaller than 400px: */
+
+body {
+    background-image: url('img_smallflower.jpg');
+}
+
+
+/* For width 400px and larger: */
+
+@media only screen and (min-width: 400px) {
+    body {
+        background-image: url('img_flowers.jpg');
+    }
+}
+
+
+/* For devices smaller than 400px: */
+
+body {
+    background-image: url('img_smallflower.jpg');
+}
+
+
+/*
+Puede usar la consulta de medios min-device-width, 
+en lugar de min-width, que verifica el ancho del 
+dispositivo, en lugar del ancho del navegador. 
+Entonces la imagen no cambiará cuando cambie el tamaño de la ventana del navegador:
+*/
+
+
+/* For devices 400px and larger: */
+
+@media only screen and (min-device-width: 400px) {
+    body {
+        background-image: url('img_flowers.jpg');
+    }
+}

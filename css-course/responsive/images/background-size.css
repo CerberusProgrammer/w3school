@@ -1,0 +1,52 @@
+/*
+Imágenes de fondo
+Las imágenes de fondo también pueden responder al cambio de tamaño y la escala.
+
+Aquí mostraremos tres métodos diferentes:
+
+1. Si la background-sizepropiedad se establece en "contener", la
+imagen de fondo se escalará e intentará ajustarse al área de contenido.
+Sin embargo, la imagen mantendrá su relación de aspecto (la relación 
+proporcional entre el ancho y la altura de la imagen):
+
+
+*/
+
+div {
+    width: 100%;
+    height: 400px;
+    background-image: url('img_flowers.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+}
+
+
+/*
+Si la background-sizepropiedad se establece en "100% 100%", 
+la imagen de fondo se extenderá para cubrir todo el área de contenido:
+*/
+
+div {
+    width: 100%;
+    height: 400px;
+    background-image: url('img_flowers.jpg');
+    background-size: 100% 100%;
+    border: 1px solid red;
+}
+
+
+/*
+Si la background-sizepropiedad se establece en "cubrir", la imagen de 
+fondo se escalará para cubrir todo el área de contenido. Tenga en cuenta 
+que el valor de "portada" mantiene la relación de aspecto y puede recortar 
+parte de la imagen de fondo:
+*/
+
+div {
+    width: 100%;
+    height: 400px;
+    background-image: url('img_flowers.jpg');
+    background-size: cover;
+    border: 1px solid red;
+}
