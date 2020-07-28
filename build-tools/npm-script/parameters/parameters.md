@@ -1,0 +1,1 @@
+> npm run js-add 2 3

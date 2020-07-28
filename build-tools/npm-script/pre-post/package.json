@@ -1,0 +1,11 @@
+{
+    "name": "super-cool-package",
+    "version": "1.0.0",
+    "scripts": {
+        "say-hello": "echo 'hello world'",
+        "presay-hello": "echo 'I run before say-hello'",
+        "postsay-hello": "echo 'I run after sayhello'"
+    },
+    "dependencies": { "": "" },
+    "devDependencies": { "...": "" }
+}

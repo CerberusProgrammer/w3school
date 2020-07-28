@@ -1,0 +1,14 @@
+{
+    "name": "super-cool-package",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "echo 'hi'",
+        "say-hello": "echo 'hello world'",
+        "awesome-npm": "npm run say-hello && echo 'echo NPM is awesome!'",
+        "do-carpet": "mkdir hello && echo 'i create a carpet'",
+        "information": "dir -a hello",
+        "carpet": "npm run do-carpet && npm run information"
+    },
+    "dependencies": { "": "" },
+    "devDependencies": { "...": "" }
+}

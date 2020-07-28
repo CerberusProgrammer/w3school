@@ -1,0 +1,12 @@
+{
+    "name": "MyApp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "mocha --recursive ./tests/",
+        "test:watch": "npm run test -- -w",
+        "start": "nodemon --inspect ./app.js",
+        "build": "rm -rf ./dist/ && gulp build"
+    }
+}

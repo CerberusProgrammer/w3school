@@ -1,0 +1,9 @@
+{
+    "name": "super-cool-package",
+    "version": "1.0.0",
+    "scripts": {
+        "js-add": "node add.js"
+    },
+    "dependencies": { "": "" },
+    "devDependencies": { "...": "" }
+}
