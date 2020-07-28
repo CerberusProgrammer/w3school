@@ -1,0 +1,8 @@
+/*
+La propiedad grid-row-gap establece el espacio entre las filas:
+*/
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+}

@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-around;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-between;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: start;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: end;
+}

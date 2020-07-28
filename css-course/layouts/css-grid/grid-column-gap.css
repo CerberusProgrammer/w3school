@@ -1,0 +1,8 @@
+/*
+La propiedad grid-column-gap establece el espacio entre las columnas:
+*/
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+}

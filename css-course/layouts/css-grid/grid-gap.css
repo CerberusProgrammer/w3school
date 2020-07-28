@@ -1,0 +1,8 @@
+/*
+La propiedad grid-gap es una propiedad abreviada para las propiedades grid-row-gap y grid-column-gap :
+*/
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px 100px;
+}
