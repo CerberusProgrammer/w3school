@@ -1,7 +1,0 @@
-<select>
-  <option value="Ford">Ford</option>
-  <option value="Volvo" selected>
-    Volvo
-  </option>
-  <option value="Fiat">Fiat</option>
-</select>;
